@@ -1,0 +1,18 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffaf5d;
+	height: 100vh;
+}
+#space_lamp {
+	width: 500px;
+	height: 500px;
+	background-repeat: no-repeat;
+}
+.off {
+    background-image: url("./assets/lampada_desligada.svg");
+  }
+.on {
+    background-image: url("./assets/lampada_ligada.svg");
+  }
